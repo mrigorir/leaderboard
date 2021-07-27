@@ -1,12 +1,25 @@
-# First Webpack approach
+# Leaderboard
 
-> This is my very first intallation of webpack, where I got to know the basics of this amazing tool.## Prerequisites
+> The Leaderboard app displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
+
+## What was build in this part of the project:
+
+ - Use Webpack dependencies for better JS and CSS file performance.
+
+ - Bootstrap 5.
+
+ - Font awesome 5.
+
+ - API features.
+
+## Image Preview
+![Screenshot Main Page](./src/img/imgs/capture.jpg)
 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps:
 
-- On the project, GitHub page, navigate to the [main page of the repository](https://github.com/mrigorir/awesome_books/)
+- On the project, GitHub page, navigate to the [main page of the repository](https://github.com/mrigorir/leaderboard/)
 
 - Click on a button named `Code`
 
@@ -18,7 +31,7 @@ To get a local copy up and running follow these simple example steps:
 
 - Type `git clone`, and then paste the URL you copied in Step 3.<br>
 
-  `$ git clone https://github.com/mrigorir/awesome_books.git` <em>Press Enter key</em><br>
+  `$ git clone https://github.com/mrigorir/leaderboard.git` <em>Press Enter key</em><br>
 
 - Your local copy will be created.
 
@@ -32,19 +45,22 @@ To get a local copy up and running follow these simple example steps:
 To make sure the linters' checks using Github Actions work properly, you should follow the next steps:
 
 1. On your recently forked repo, enable the GitHub Actions in the Actions tab.
+   
 2. Create the `feature/branch` and push.
+   
 3. Start working on your milestone as usual.
+   
 4. Open a PR from the `feature/branch` when your work is done.
 
 ### Usage 
 
 - Make sure you have npm and node installed in your terminal.
 
-- Run `npm install express` since is needed for webpack server.
-
 - I recommend the use of VS code as a code editor, but you can use whatever you want.
 
-- Run in your terminal `npm run server` to see webpack html file in action.
+- run in your terminal `npm run server` to see webpack html file in action.
+
+- run `npm install express` in case you get the error after running the server.
 
 ## Author
 
@@ -58,7 +74,7 @@ To make sure the linters' checks using Github Actions work properly, you should 
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/mrigorir/webpack/issues).
+Feel free to check the [issues page](https://github.com/mrigorir/leaderboard/issues).
 
 
 ## Show your support
