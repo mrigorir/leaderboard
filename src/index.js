@@ -2,7 +2,7 @@ import './styles/style.css';
 
 const div = document.getElementById('root');
 
-div.insertAdjacentHTML('afterbegin', ` <div class="container">
+div.innerHTML = ` <div class="container">
 <main>
  <div class="row">
    <header>
@@ -39,4 +39,4 @@ div.insertAdjacentHTML('afterbegin', ` <div class="container">
    </div>
   </div>
 </main>
-</div>`);
+</div>`;
