@@ -6,18 +6,17 @@ module.exports = {
   devServer: {
     contentBase: './dist',
   },
-  devtool: 'eval-source-map',
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/index.html'
+      template: './src/index.html',
     }),
   ],
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
     clean: true,
-    publicPath: '/'
-  }, 
+    publicPath: '/',
+  },
   module: {
     rules: [
       {
