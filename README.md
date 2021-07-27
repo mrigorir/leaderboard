@@ -13,7 +13,7 @@
  - API features.
 
 ## Image Preview
-![Screenshot Main Page](./src/img/imgs/capture.jpg)
+![Screenshot Main Page](./src/img/capture.jpg)
 
 ## Getting Started
 
