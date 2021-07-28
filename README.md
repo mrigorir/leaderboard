@@ -17,7 +17,7 @@
 
 ## Live Demo
 
-![here!](https://mrigorir.github.io/leaderboard/))
+[here!](https://mrigorir.github.io/leaderboard/)
 
 ## Getting Started
 
