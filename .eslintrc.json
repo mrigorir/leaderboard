@@ -24,7 +24,6 @@
       "dist/",
       "build/",
       "luxon.js",
-      "main.js", 
       "**/assets/*.js",
       "webpack.config.js"
     ]
