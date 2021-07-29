@@ -58,9 +58,21 @@ To make sure the linters' checks using Github Actions work properly, you should 
 
 - I recommend the use of VS code as a code editor, but you can use whatever you want.
 
-- run in your terminal `npm run server` to see webpack html file in action.
+- Run in your terminal `npm run server` to see webpack html file in action.
 
-- run `npm install express` in case you get the error after running the server.
+- Run `npm install express` in case you get the error after running the server.
+
+- To create a new game, you need to request for [a unique ID](https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/) to serve as a container for 
+  
+  names and scores, and pass it any name you want, e.g: Marco's game.
+
+- For this project, an ID is already been used.
+
+- To get/add scores from the API, use this [url](https://us-central1-js-capstone-backend.cloudfunctions.net/api) followed by: /games/your_created_id/scores/
+  
+- To set new scores into the API, just put your name and a score number in the form, then hit the paper plane button.
+
+- Look at the leaderboard's info and check if your info shows up.
 
 ## Author
 
