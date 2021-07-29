@@ -1,4 +1,4 @@
-const createGame = async () => {
+const create = async () => {
   const response = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games', {
     method: 'POST',
     body: JSON.stringify({
@@ -11,4 +11,4 @@ const createGame = async () => {
   console.log(await response.json());
 };
 
-export default createGame;
+export default create;
