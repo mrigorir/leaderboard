@@ -14,7 +14,6 @@ refresh.addEventListener('click', () => {
       const scores = obj.result;
       addData(scores);
     });
-  // .catch((error) => console.log(error));
 });
 
 form.addEventListener('submit', (e) => {
