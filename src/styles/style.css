@@ -48,7 +48,7 @@ li:nth-child(1n) {
 }
 
 li:nth-child(2n) {
-  background-color: #fff;
+  background-color: lightcyan;
 }
 
 #list li {
@@ -58,7 +58,8 @@ li:nth-child(2n) {
 
 /* Form */
 
-.form-control::placeholder {
-  color: black;
+#name::placeholder,
+#score::placeholder {
   font-weight: bolder;
+  color: tomato;
 }
