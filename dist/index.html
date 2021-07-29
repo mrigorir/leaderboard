@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <base href="/">
+    <link rel="stylesheet" 
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+          crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+            crossorigin="anonymous">
+  </script>
+  <script src="https://kit.fontawesome.com/9f43e9dbcb.js" crossorigin="anonymous"></script>
+    <title> JavaScript | Leaderboard </title>
+<script defer src="/main.js"></script></head>
+<body>
+<div class="container">
+  <main>
+    <div class="row">
+      <header>
+     <div class="col-md-6 mx-auto">
+      <h1 class="font-bold main-title mt-5 border text-center bg-dark text-white rounded pb-2"> Leaderboard </h1>
+     </div>
+      </header>
+    </div>
+    <div class="row mt-5">
+      <div class="col-md-6">
+        <div class="d-flex align-items-center justify-content-center">
+          <h2 class="font-bold pe-4"> Recent Scores </h2>
+          <button class="bordered-button text-center" type="button" id="refresh"> <i class="fas fa-sync-alt font-bold text-center"></i> </button>
+        </div>
+        <ul id="list" class="mt-4 list-unstyled mx-auto w-75 p-0">
+          
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <h2 class="font-bold text-center mt-1"> Add your score </h2>
+        <form role="form" id="form" class=" mx-auto w-50 mt-4">
+          <div class="form-group">
+            <input type="text" name="" class="form-control mb-3 bg-white" placeholder="Your name" id="name">
+          </div>
+          <div class="form-group">
+            <input type="text" name="" class="form-control bg-white" placeholder="Your score" id="score">
+          </div>
+          <div class="d-flex align-items-center justify-content-end mt-3">
+            <button class="bordered-button" type="submit">
+              <i class="fas fa-paper-plane text-center font-bold"> </i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
+  </div>
+</body>
+</html>

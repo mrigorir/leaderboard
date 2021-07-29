@@ -1,0 +1,65 @@
+/* General */
+
+@font-face {
+  font-family: 'roboto';
+  src: url('./roboto-regular.ttf') format('ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  background-color: #f0f1f1;
+}
+
+.font-bold {
+  font-weight: bolder;
+}
+
+/* Main */
+
+.main-title {
+  font-size: 4rem;
+}
+
+.bordered-button {
+  background-color: white;
+  color: black;
+  border-radius: 0;
+  text-align: center;
+  box-shadow: 2px 1px black;
+  font-weight: 500;
+  padding: 5px 10px;
+}
+
+/* ScoreList */
+
+#list,
+.form-control {
+  border: solid 2px black;
+}
+
+#list,
+li {
+  border-radius: 5px;
+}
+
+li:nth-child(1n) {
+  background-color: #ddd;
+}
+
+li:nth-child(2n) {
+  background-color: lightcyan;
+}
+
+#list li {
+  color: black;
+  padding: 5px 10px;
+}
+
+/* Form */
+
+#name::placeholder,
+#score::placeholder {
+  font-weight: bolder;
+  color: tomato;
+}
